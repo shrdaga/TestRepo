@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>43.0</apiVersion>
-    <status>Active</status>
-</ApexClass>
+/**
+ * Wrapper Class to store the information of a treatment session.
+ * @author Hiram Perez
+ */
+public class TreatmentInformationWrapper_MC {
+    public String strStepName {get; set;}
+    public ProviderInformationWrapper_MC objSelectedProvider {get; set;}
+    public List<ProviderInformationWrapper_MC> lstProviderOptions {get; set;}
+    public TreatmentCostDetailsWrapper_MC objCostDetails {get; set;}
+}
