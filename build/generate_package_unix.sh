@@ -66,6 +66,7 @@ then
                         *.layout) TYPENAME="Layout";;
                         *.letter) TYPENAME="Letterhead";;
                         *.LeadConvertSetting) TYPENAME="LeadConvertSettings";;
+                        *.liveChatButton) TYPENAME="LiveChatButton";;
                         *.managedTopics) TYPENAME="ManagedTopics";;
                         *.matchingRule) TYPENAME="MatchingRule";;
                         *.network) TYPENAME="Network";;
